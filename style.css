@@ -1,0 +1,231 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Fraunces', serif;
+}
+
+/* header-logo- style  */
+.logo img{
+  width:300px;
+  margin-top:2%;
+}
+.header-style{
+  width: 100%;
+  height:100px;
+}
+/* nav-bar-design */
+.nav-bar-design{
+  float: right;
+  
+}
+.nav-bar-design a{
+  color:black;
+  font-size:18px;
+  font-weight:600;
+}
+.nav-bar-design li{
+  padding:15px;
+}
+/* end nav-bar design  */
+
+
+
+
+/* start first-part-design */
+ 
+.colorheading1{
+  color:orangered;
+}
+.colorheading2{
+  color:blue;
+}
+/* end heading-color */
+
+/* divide fullwidth into halfside and halfside  */
+
+.firstpart{
+  background-color:rgba(245, 177, 163, 0.404);
+  height:450px;
+}
+
+.halfside{
+  width:35%;
+  float: left;
+   
+  margin-top:2%;
+}
+.halfside img{
+  width: 100%;
+  margin-left: 50%;
+}
+/* button-desing start  */
+.button-design{
+ width:100%;
+}
+.button-design img{
+  width: 20%;
+  margin-left: 10%;
+}
+button{
+  background-color:rgb(17, 197, 17);
+  padding:10px 10px;
+  color:yellow;
+  border-radius:16px;
+  font-weight: 600;
+}
+#buy-button img{
+  height:20px;
+  
+}
+/* end-button-design for firstpart  */
+
+/* women-jacket-card design  */
+
+
+.women-jacket-card{
+ border:0;
+ border-radius: 50px;
+}
+.men-jacket-card{
+  border: 0;
+  border-radius: 20px;
+  
+}
+/* card design-finished */
+
+
+/* start fourth-section-information? */
+.img1 img{
+
+  width:50px;
+}
+.img2 img{
+  
+  width:50px;
+}
+.img3 img{
+ 
+  width:50px;
+}
+.one{
+  width:65%;
+  margin-left:5%;
+}
+.two{
+  width:65%;
+  margin-left:5%;
+}
+.three{
+  width:65%;
+  margin-left:5%;
+}
+.halfwidth{
+  width:35%;
+  float: right;
+   
+
+}
+.halfwidth{
+  
+  margin-top: 10%;
+  margin-right: 10%;
+  
+}
+.halfwidth img{
+ width: 100%;
+  
+}
+.fourth-part{
+  margin-top:30%;
+  height: 500px;
+
+}
+.one-box{
+  
+  height: 80%;
+  margin-top: 5%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 20px;
+}
+
+.two-box{
+  
+  height: 80%;
+  margin-top: 8%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 20px;
+}
+.three-box{
+  
+  height: 80%;
+  margin-top: 8%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 20px;
+}
+
+/* start-design-bonus-section */
+.bonus-section{
+  margin-top: 400px;
+  height:700px;
+  background-color:rgb(120, 207, 120);
+}
+.all-tag{
+  margin:5%;
+}
+.footer-section{
+  color:tomato;
+  font-size: 15px;
+  margin-top: 15%;
+  font-weight: 500;
+}
+
+
+/* mediaquery */
+
+
+
+  
+  
+  
+
+
+
+
+
+@media  only screen and (max-width:595px)
+{
+  #buy-button{
+    margin-left:300px;
+    float: inline-end;
+    
+  }
+  h4{
+    margin-top: auto;
+  }
+  .fourth-part{
+   display: block;
+  }
+  .halfwidth img{
+    float:right;
+    width: 400px;
+  }
+  .one-box{
+    width:400px;
+  }
+  .two-box{
+    width:400px;
+  }
+  .three-box{
+    width:400px;
+  }
+  
+
+}
+
+
+
+
+
